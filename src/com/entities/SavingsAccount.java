@@ -2,5 +2,14 @@ package com.entities;
 
 public class SavingsAccount {
 
-	static double annualInterestRate = 0d;
+	private static double annualInterestRate = 0d;
+	private double savingsBalance;
+	
+	public SavingsAccount(double savingsBalance) {
+		super();
+		this.savingsBalance = savingsBalance;
+	}
+	
+	
+	
 }
