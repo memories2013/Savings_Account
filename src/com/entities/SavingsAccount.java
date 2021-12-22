@@ -17,5 +17,9 @@ public class SavingsAccount {
 	public void display() {
 		System.out.println(" The account has $" + savingsBalance);
 	}
+	
+	public static void modifyInterestRate(double newInterestRate) {
+		annualInterestRate = newInterestRate;
+	}
 
 }
