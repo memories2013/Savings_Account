@@ -13,5 +13,9 @@ public class SavingsAccount {
 	public void calculateMonthlyInterest() {
 		savingsBalance *= (annualInterestRate / 100) / 12;
 	}
+	
+	public void display() {
+		System.out.println(" The account has $" + savingsBalance);
+	}
 
 }
